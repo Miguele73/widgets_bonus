@@ -29,6 +29,7 @@ class _DynamicAreasScreenState extends State<DynamicAreasScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFBFDCCF),
       appBar: AppBar(
         title: const Text('Dynamische Anpassungen'),
         backgroundColor: Color(0xFF1995AD),
